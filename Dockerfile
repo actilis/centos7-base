@@ -1,5 +1,8 @@
 FROM centos:7.4.1708
-MAINTAINER fmicaux@actilis.net
+
+MAINTAINER Francois MICAUX <dok-images@actilis.net> LABEL Vendor="Actilis" \
+      License=GPLv2 \
+      Version=2017.10
 
 # Installation EPEL + IUS
 RUN yum clean all \
